@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estancia Infantil Juan Escutia</title>
+
+    <!-- Fuente infantil -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #eaf7ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #ffb6c1, #87cefa);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 6px solid #ffd700;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            text-shadow: 3px 3px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Secciones del contenido */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #ff6f61;
+            text-align: center;
+            margin: 35px 0 15px;
+        }
+
+        /* Tarjetas */
+        .card {
+            background: white;
+            margin: 15px 0;
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+            border-left: 12px solid #87cefa;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #ff6f61;
+        }
+
+        .contacto {
+            background: #fff3cd;
+            border-left: 12px solid #ffca28;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            font-size: 17px;
+        }
+
+        /* Decoraciones */
+        .decor {
+            position: absolute;
+            width: 80px;
+            opacity: 0.18;
+            z-index: -1;
+        }
+
+        .nube1 { top: 20px; left: 10px; }
+        .nube2 { top: 150px; right: 15px; }
+        .estrella { bottom: 40px; left: 20px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+            .card h2 {
+                font-size: 22px;
+            }
+            .section-title {
+                font-size: 26px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 35px 15px;
+            }
+
+            header h1 {
+                font-size: 26px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 18px;
+            background: #ffd700;
+            color: #333;
+            margin-top: 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Decoraciones -->
+<img src="https://i.imgur.com/efQ5ZQe.png" class="decor nube1">
+<img src="https://i.imgur.com/efQ5ZQe.png" class="decor nube2">
+<img src="https://i.imgur.com/ODwBSuS.png" class="decor estrella">
+
+<header>
+    <h1>Estancia Infantil Juan Escutia</h1>
+    <p>Cuidado, aprendizaje y amor para tus pequeños</p>
+</header>
+
+<div class="container">
+
+    <!-- MISIÓN -->
+    <h2 class="section-title">🌟 Nuestra Misión</h2>
+    <div class="card">
+        <p>
+            La estancia infantil “Juan Escutia” tiene como misión formar niños y niñas autónomas, responsables y seguras de sí mismas, desarrollando las competencias necesarias para potenciarse en la escuela y en la sociedad.
+        </p>
+    </div>
+
+    <!-- SERVICIOS -->
+    <h2 class="section-title">🎨 Servicios</h2>
+
+    <div class="card">
+        <h2>🩺 Enfermería</h2>
+        <p>Atención básica, monitoreo de salud y primeros auxilios con personal capacitado.</p>
+    </div>
+
+    <div class="card">
+        <h2>🍼 Lactantes (1 - 2 años)</h2>
+        <p>Espacio seguro y especializado para bebés, con estimulación temprana y cuidados personalizados.</p>
+    </div>
+
+    <div class="card">
+        <h2>🐣 Maternales (3 - 4 años)</h2>
+        <p>Actividades educativas y recreativas para su desarrollo cognitivo, físico y emocional.</p>
+    </div>
+
+    <div class="card">
+        <h2>🎒 Preescolar (5 - 6 años)</h2>
+        <p>Programa formativo que prepara a los niños para ingresar a la primaria de manera exitosa.</p>
+    </div>
+
+    <div class="card">
+        <h2>🧠 Psicología</h2>
+        <p>Evaluación del desarrollo infantil y apoyo a padres con orientación profesional.</p>
+    </div>
+
+    <!-- CONTACTO -->
+    <h2 class="section-title">📞 Contacto</h2>
+    <div class="contacto">
+        <p><strong>⏰ Horario de atención:</strong> 7:00 am – 3:00 pm</p>
+        <p><strong>📱 Teléfono de inscripción:</strong> +52 1 55 6358 2619</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Estancia Infantil Juan Escutia – Todos los derechos reservados
+</footer>
+
+</body>
+</html>
